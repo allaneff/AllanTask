@@ -13,6 +13,6 @@
 
 *** 
 ## **Pós-condições:**
-* A tarefa deve ter cido gravada no sistema.
+* A tarefa deve ter sido gravada no sistema.
 
 ***
