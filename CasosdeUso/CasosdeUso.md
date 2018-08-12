@@ -1,10 +1,18 @@
 # **Casos de Uso**
 
-## **Atores:** Usúario.
-## **Pré-condição:** O usúario deve ter feito login e obtido autorização do sistema.
+## **Atores:** 
+* Usuário.
+
+***
+## **Pré-condição:** 
+* O usuário deve ter feito login e obtido autorização do sistema.
+
 ***
 ## **Fluxo de Eventos:**
 * 
 
 *** 
 ## **Pós-condições:**
+* A tarefa deve ter cido gravada no sistema.
+
+***
