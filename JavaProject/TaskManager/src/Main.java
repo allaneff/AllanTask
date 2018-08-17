@@ -1,15 +1,25 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 
 public class Main {
     public static void main(String[]args){
-        String stringConexao = "jdbc:mysql://localhost:3306/?";
-        String nomeBancoDeDados = ""; // nome do banco de dados que foi criado no sqlworband -- baixar mysql-java-8.0.12, pasta libs
-        String usuarioBD = "";
-        String senhaBD = "";
+        String stringConexao = "jdbc:mysql://localhost:3306/ALLANTASK";
+        String nomeBancoDeDados = "";
+        String usuarioBD = "root";
+        String senhaBD = "univille";
         try{
             Connection conn = DriverManager
-                    .getConnection(String.format(stringConexao, nomeBancoDeDados),usuarioBD,senhaBD);
+                    .getConnection(String.format(stringConexao
+                            ,usuarioBD,senhaBD));
+        Statament stat = conn.createStatement();
+        stat.execute();
+        PreparedStatement p=
+            conn.prepareStatement("insert into user(name,password) values(? ?)");
+        p.setString(1,"Tom");
+        p.setString(2,"Senha123");
+
+        p.execute();
 
         }catch (Exception e){
             e.printStackTrace();
