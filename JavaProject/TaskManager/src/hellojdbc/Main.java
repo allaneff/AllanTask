@@ -1,6 +1,4 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
+import java.sql.*;
 
 public class Main {
     public static void main(String[]args){
@@ -20,6 +18,21 @@ public class Main {
         p.setString(2,"Senha123");
 
         p.execute();
+        p.close();
+
+        Statament query = conn.createStatement();
+
+        resultSet result = ((Statement) query).executeQuery("select user_id, name, password from user");
+        while(((ResultSet) result).next()){
+            long userId = result.getLong(1);
+            String name = result.getString(2);
+            String password = result.getString(3);
+            System.out.println(userId+" "+name+" "+password);
+
+        }
+
+        //Fecha a conexão de bancos de dados
+         p.close();   
 
         }catch (Exception e){
             e.printStackTrace();
