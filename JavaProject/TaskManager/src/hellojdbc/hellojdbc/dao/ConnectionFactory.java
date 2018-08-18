@@ -13,7 +13,7 @@ public class ConnectionFactory {
         try{
             return DriverManager
                     .getConnection(stringConexao
-                            ,usuarioBD, senhaBD);
+                            ,usuarioBD, senhaBD)
         }catch (Exception e){
             throw new RuntimeException();
         }
