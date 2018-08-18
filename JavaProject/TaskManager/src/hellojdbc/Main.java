@@ -1,3 +1,5 @@
+package hellojdbc;
+
 import java.sql.*;
 
 public class Main {
@@ -30,9 +32,11 @@ public class Main {
             System.out.println(userId+" "+name+" "+password);
 
         }
+        result.close();
+        query.close();
 
         //Fecha a conexão de bancos de dados
-         p.close();   
+         p.close();
 
         }catch (Exception e){
             e.printStackTrace();
