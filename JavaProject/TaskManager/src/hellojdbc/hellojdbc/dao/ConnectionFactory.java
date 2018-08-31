@@ -7,9 +7,9 @@ public class ConnectionFactory {
 
     private static final String stringConexao = "jdbc:mysql://localhost:3306/ALLANTASK";
     private static final String usuarioBD = "root";
-    private static final String senhaBD = "univille";
+    private static final String senhaBD = "root123";
 
-    public Connection getConnection{
+    public Connection getConnection(){
         try{
             return DriverManager
                     .getConnection(stringConexao
@@ -18,4 +18,5 @@ public class ConnectionFactory {
             throw new RuntimeException();
         }
     }
+
 }
