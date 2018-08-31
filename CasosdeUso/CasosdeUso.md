@@ -5,11 +5,12 @@
 
 ***
 ## **Pré-condição:** 
-* O usuário deve ter feito login e obtido autorização do sistema.
+* O Usuário deve criar uma conta.
 
 ***
 ## **Fluxo de Eventos:**
-* 
+* O usuário deve ter feito login e obtido autorização do sistema.
+* O Usuário gerencia as tarefas.
 
 *** 
 ## **Pós-condições:**

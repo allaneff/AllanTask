@@ -1,11 +1,13 @@
 package hellojdbc;
 
 import hellojdbc.hellojdbc.dao.ConnectionFactory;
+import hellojdbc.hellojdbc.entity.User;
 
 import java.sql.*;
 
 public class Main {
     public static void main(String[]args){
+
 
 
         try{
@@ -19,9 +21,9 @@ public class Main {
             ResultSet rs = sp.executeQuery();
 
             while (rs.next()){
-                int id = rs.getInt(1);
+                int at_id = rs.getInt(1);
                 String name = rs.getString(2);
-                String pass = rs.getString(3);
+                String password = rs.getString(3);
             }
 
             con.close();
