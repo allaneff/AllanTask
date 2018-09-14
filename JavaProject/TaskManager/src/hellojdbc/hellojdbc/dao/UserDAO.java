@@ -4,43 +4,109 @@ import hellojdbc.hellojdbc.entity.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
-public class UserDAO {
+public class UserDAO extends BaseDAO{
 
-    //Insere um usuario
-    public void insert(User user) {
-        try {
-            Connection conn = (new ConnectionFactory().getConnection());
 
-            PreparedStatement stat = (PreparedStatement) conn.createStatement();
-            stat.execute("delete from user");
-            //fecha a conexao com o banco de dados
-            stat.close();
-            conn.close();
-            {
-            }
-        } catch (Exception e) {
+    public void insert(User user){
 
+
+        try(
+                Connection connection = getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement("insert into user(name,password) values(?,?)")
+        ){
+
+            preparedStatement.setString(1,user.getName());
+            preparedStatement.setString(2,user.getPassword());
+            preparedStatement.execute();
+
+        }catch (Exception e){
+            throw new RuntimeException(e);
         }
+
     }
-        // Excluir todos os registros da tabela
-       /* public void deleteAll (){
-            try {
-                Connection conn = (new ConnectionFactory().getConnection());
-                PreparedStatement p = conn.prepareStatement("insert into user(name,password) values(? ?)");
-                p.setString(1, user.getName());
-                p.setString(2, user.getPassword());
 
-                p.execute();
-                p.close();
+    public List<User> getAll(){
+        List<User> list = new ArrayList<>();
 
-                PreparedStatement stat = (PreparedStatement) conn.createStatement();
-                stat.execute("delete from user");
-                //fecha a conexao com o banco de dados
-                stat.close();
-                conn.close();
+        try(
+                Connection connection = getConnection();
+                Statement statement = connection.createStatement()
+        )
+        {
+            ResultSet resultSet = statement.executeQuery("select user_id,name,password from user");
 
-            } catch (Exception e) {
-                e.printStackTrace();
+            while(resultSet.next()){
+
+                User user = new User();
+                user.setId(resultSet.getLong(1));
+                user.setName(resultSet.getString(2));
+                user.setPassword(resultSet.getString(3));
+                list.add(user);
             }
-        }*/}
+
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }
+        return list;
+    }
+
+
+    public User getById(long id){
+        User user = null;
+
+        try(
+                Connection connection = getConnection();
+                PreparedStatement statement = connection.prepareStatement("select user_id,name,password from user where user_id = ?")
+        ){
+
+            statement.setLong(1,id);
+
+
+            ResultSet resultSet = statement.executeQuery();
+
+            while(resultSet.next()){
+                user = new User();
+                user.setId(resultSet.getLong(1));
+                user.setName(resultSet.getString(2));
+                user.setPassword(resultSet.getString(3));
+            }
+
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }
+        return user;
+    }
+
+    public User getByName(String name){
+        User user = null;
+
+        try(
+                Connection connection = getConnection();
+                PreparedStatement statement = connection.prepareStatement("select user_id,name,password from user where name = ?")
+        )
+        {
+
+            statement.setString(1,name);
+
+            ResultSet resultSet = statement.executeQuery();
+
+
+            while(resultSet.next()){
+                user = new User();
+                user.setId(resultSet.getLong(1));
+                user.setName(resultSet.getString(2));
+                user.setPassword(resultSet.getString(3));
+            }
+
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }
+        return user;
+    }
+
+}
