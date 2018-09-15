@@ -3,12 +3,18 @@ package Controllers;
 import Classes.ConexaoBanco;
 import Classes.GeraHash;
 import Classes.MensagensEspec;
+import Classes.Telas;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -20,7 +26,7 @@ public class Login {
     @FXML
     private PasswordField psUser;
     @FXML
-     Button btnLogar;
+    Button btnLogar;
 
     public void handleBtnLogarOnAction(){
         String nome_usuario = txUser.getText().toString();
@@ -47,6 +53,8 @@ public class Login {
     }
 
     public void onclickRegistrarse(ActionEvent actionEvent) {
+        new Telas().TelaRegistro();
 
+        btnLogar.getScene().getWindow().hide();
     }
 }

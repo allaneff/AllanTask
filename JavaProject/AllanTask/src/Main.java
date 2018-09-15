@@ -1,3 +1,4 @@
+import Classes.Telas;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -8,10 +9,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLs/Login.fxml"));
-        primaryStage.setTitle("AllanTask - Login");
-        primaryStage.setScene(new Scene(root, 261, 237));
-        primaryStage.show();
+        Telas.PrimaryStage = primaryStage;
+
+        Telas telas = new Telas();
+
+        telas.TelaLogin();
     }
 
 

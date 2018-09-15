@@ -2,6 +2,7 @@ package Controllers;
 
 import Classes.ConexaoBanco;
 import Classes.MensagensEspec;
+import Classes.Telas;
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -19,18 +20,20 @@ public class Registro {
     TextField txUserReg;
     @FXML
     PasswordField psSenhaReg;
-    @FXML
 
 
     public void handleBtnEfetivarOnAction(){
+        // Abrir tela de login // new Telas().TelaLogin();
+        // Fechar tela atual // txUserReg.getScene().getWindow().hide();
+
         Connection Conexao = ConexaoBanco.getConnection();
         String nome_usuario = txNomReg.getText().toString(); //Nome Completo
         String pass_usuario = ReturnHash(psSenhaReg.getText().toString()); // Senha
         String id_usuario = txUserReg.getText().toString(); //Id para login
 
+
         try {
-            PreparedStatement ps = Conexao.prepareStatement("INSERT at_user (nome_user,pass_user,id_user) " +
-                    "VALUES ('" + txNomReg.getText() + "','" + ReturnHash(psSenhaReg.getText()) +"','"+ txUserReg.getText() + "'");
+            PreparedStatement ps = Conexao.prepareStatement("INSERT at_user (nome_user,pass_user,usuario_user) VALUES ('" + txNomReg.getText() + "','" + ReturnHash(psSenhaReg.getText()) +"','"+ txUserReg.getText() + "')");
 
             ps.execute();
         } catch (SQLException e ){
