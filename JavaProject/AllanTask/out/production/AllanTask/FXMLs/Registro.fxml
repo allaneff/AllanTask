@@ -5,12 +5,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="194.0" prefWidth="216.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Registro">
    <children>
-      <Button layoutX="54.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleBtnEfetivarOnAction" prefHeight="25.0" prefWidth="107.0" text="Efetivar" />
+      <Button layoutX="54.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleBtnEfetivarOnAction" prefHeight="25.0" prefWidth="107.0" text="Efetivar" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="55.0" />
       <TextField fx:id="txNomReg" layoutX="33.0" layoutY="14.0" promptText="Nome completo" />
       <TextField fx:id="txUserReg" layoutX="33.0" layoutY="52.0" promptText="Usuário" />
       <PasswordField fx:id="psSenhaReg" layoutX="33.0" layoutY="91.0" promptText="Senha" />
+      <Button fx:id="btnSair" layoutX="173.0" layoutY="155.0" mnemonicParsing="false" onAction="#handleBtnSairOnAction" text="Sair" />
    </children>
 </AnchorPane>

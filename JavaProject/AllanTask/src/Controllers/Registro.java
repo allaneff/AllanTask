@@ -3,7 +3,9 @@ package Controllers;
 import Classes.ConexaoBanco;
 import Classes.MensagensEspec;
 import Classes.Telas;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
@@ -20,10 +22,11 @@ public class Registro {
     TextField txUserReg;
     @FXML
     PasswordField psSenhaReg;
-
+    @FXML
+    Button btnSair;
 
     public void handleBtnEfetivarOnAction(){
-        // Abrir tela de login // new Telas().TelaLogin();
+
         // Fechar tela atual // txUserReg.getScene().getWindow().hide();
 
         Connection Conexao = ConexaoBanco.getConnection();
@@ -44,7 +47,15 @@ public class Registro {
         txNomReg.setText("");
         txUserReg.setText("");
         psSenhaReg.setText("");
-
         MensagensEspec.MensagemInfo("Cadastro de usuário","Usuário " + txUserReg.getText() + " criado","Usuário incluído com sucesso!");
+
+        txUserReg.getScene().getWindow().hide();
     }
+
+    public void handleBtnSairOnAction() {
+        new Telas().TelaLogin();
+
+        btnSair.getScene().getWindow().hide();
+    }
+
 }
