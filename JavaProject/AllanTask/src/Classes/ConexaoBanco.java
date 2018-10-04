@@ -9,9 +9,9 @@ import java.sql.SQLException;
  */
 public class ConexaoBanco {
 
-    private final static String dataBaseName = "allantask";
+    private final static String dataBaseName = "AllanTask";
     private final static String dataBaseUser = "root";
-    private final static String dataBasePassword = "123";
+    private final static String dataBasePassword = "univille123";
     private final static String dataBaseServer = "jdbc:mysql://localhost/";
 
     public static Connection getConnection(){

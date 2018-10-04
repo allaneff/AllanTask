@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/FXMLs/TelaPrincipal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fdfdfd/Fdfdfd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/User.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/User.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/User.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/User.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Classes/ConexaoBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Classes/ConexaoBanco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Classes/GeraHash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Classes/GeraHash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Classes/MensagensEspec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Classes/MensagensEspec.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Classes/Telas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Classes/Telas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Controllers/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Controllers/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Controllers/Registro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Controllers/Registro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Controllers/TelaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Controllers/TelaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/FXMLs/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/FXMLs/Login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AllanTask/FXMLs/Registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/FXMLs/Registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/FXMLs/TelaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/FXMLs/TelaPrincipal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllanTask/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllanTask/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/ConexaoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ConexaoBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/Telas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Telas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/TelaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXMLs/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXMLs/Login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXMLs/Registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXMLs/Registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXMLs/TelaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXMLs/TelaPrincipal.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -66,45 +83,85 @@
     <session id="1701474879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="fxml" value="13" />
+          <entry key="fxml" value="16" />
           <entry key="iml" value="2" />
-          <entry key="java" value="26" />
+          <entry key="java" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="26" />
-          <entry key="XML" value="13" />
+          <entry key="JAVA" value="31" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="fxml" value="77" />
-          <entry key="java" value="2945" />
+          <entry key="fxml" value="270" />
+          <entry key="java" value="3530" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2945" />
+          <entry key="JAVA" value="3530" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="77" />
+          <entry key="XML" value="270" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-559769346">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="fxml" value="4" />
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="7" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fxml" value="153" />
+          <entry key="java" value="1020" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1020" />
+          <entry key="XML" value="153" />
         </counts>
       </usages-collector>
     </session>
@@ -115,22 +172,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="-51">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,34 +184,123 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Classes/Telas.java">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/Registro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="412">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FXMLs/Registro.fxml">
+        <entry file="file://$PROJECT_DIR$/src/Classes/ConexaoBanco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Classes/Telas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/TelaPrincipal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FXMLs/Notas.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/Registro.java">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/Notas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Classes/DadosNotas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.12-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
@@ -178,6 +312,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -196,19 +331,23 @@
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/Classes/Controller.java" />
-        <option value="$PROJECT_DIR$/src/Classes/ConexaoBanco.java" />
         <option value="$PROJECT_DIR$/src/Controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/Classes/GeraHash.java" />
         <option value="$PROJECT_DIR$/src/Classes/MensagensEspec.java" />
-        <option value="$PROJECT_DIR$/src/FXMLs/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/Controllers/Login.java" />
         <option value="$PROJECT_DIR$/src/FXMLs/TelaPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/TelaPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/FXMLs/Login.fxml" />
+        <option value="$PROJECT_DIR$/src/FXMLs/Notas.java" />
         <option value="$PROJECT_DIR$/src/FXMLs/TelaPrincipal.fxml" />
+        <option value="$PROJECT_DIR$/src/Controllers/TelaPrincipal.java" />
         <option value="$PROJECT_DIR$/src/FXMLs/Registro.fxml" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/Registro.java" />
+        <option value="$PROJECT_DIR$/src/Classes/ConexaoBanco.java" />
         <option value="$PROJECT_DIR$/src/Classes/Telas.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/Registro.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/Login.java" />
+        <option value="$PROJECT_DIR$/src/Classes/DadosNotas.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/Notas.java" />
+        <option value="$PROJECT_DIR$/src/FXMLs/Notas.fxml" />
       </list>
     </option>
   </component>
@@ -230,7 +369,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,27 +388,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AllanTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllanTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllanTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllanTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FXMLs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllanTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -282,15 +404,18 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537411517928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538181243951" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/mysql-connector-java-8.0.12.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SI\2 Ano\POO\3 BIM\ProgetoGit\AllanTask\JavaProject\AllanTask\src\FXMLs" />
       <recent name="D:\SI\2 Ano\POO\3 BIM\ProgetoGit\AllanTask\JavaProject\AllanTask\libs" />
@@ -407,7 +532,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17700455" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +541,41 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18688525" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2262295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.28360656" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.17704917" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17927383" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22459017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,40 +598,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.2066365" />
-      <window_info id="Structure" order="5" weight="0.25" />
-      <window_info id="Favorites" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32874617" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="10" />
-      <window_info anchor="bottom" id="Changes" order="11" />
-      <window_info anchor="bottom" id="Profiler" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32874617" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -499,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/ConexaoBanco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AllanTask.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -516,50 +631,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FXMLs/Login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/MensagensEspec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FXMLs/TelaPrincipal.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/TelaPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Registro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FXMLs/Registro.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/reflect/Method.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -575,34 +652,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/javafx-src.zip!/com/sun/javafx/event/EventUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="578">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FXMLs/TelaPrincipal.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FXMLs/Login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/mysql-connector-java-8.0.12.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1194">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FXMLs/Registro.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/Classes/ConexaoBanco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.12-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Telas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="141">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/TelaPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Notas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FXMLs/Notas.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/DadosNotas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Registro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,7 +822,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -650,7 +853,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

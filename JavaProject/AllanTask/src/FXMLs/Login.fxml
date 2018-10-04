@@ -2,34 +2,36 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Login">
-   <columnConstraints>
-      <ColumnConstraints />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints />
-   </rowConstraints>
+<Pane prefHeight="269.0" prefWidth="296.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Login">
    <children>
-      <Pane prefHeight="237.0" prefWidth="261.0">
-         <children>
-            <Button fx:id="btnLogar" layoutX="76.0" layoutY="153.0" mnemonicParsing="false" onAction="#handleBtnLogarOnAction" prefHeight="25.0" prefWidth="108.0" text="Login" />
-            <TextField fx:id="txUser" layoutX="25.0" layoutY="76.0" prefHeight="25.0" prefWidth="211.0" promptText="Usuario" />
-            <PasswordField fx:id="psUser" layoutX="24.0" layoutY="119.0" prefHeight="25.0" prefWidth="211.0" promptText="Senha" />
-            <Label layoutX="52.0" layoutY="27.0" text="AllanTask">
-               <font>
-                  <Font name="System Bold Italic" size="33.0" />
-               </font>
-            </Label>
-            <Button fx:id="btnRegistrarse" layoutX="76.0" layoutY="198.0" mnemonicParsing="false" prefHeight="25.0" onAction="#onclickRegistrarse" prefWidth="108.0" text="Registrar-se" />
-         </children>
-      </Pane>
+      <Button fx:id="btnLogar" layoutX="94.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleBtnLogarOnAction" prefHeight="25.0" prefWidth="108.0" text="Login" />
+      <TextField fx:id="txUser" layoutX="43.0" layoutY="88.0" prefHeight="25.0" prefWidth="211.0" promptText="Usuario" />
+      <PasswordField fx:id="psUser" layoutX="42.0" layoutY="131.0" prefHeight="25.0" prefWidth="211.0" promptText="Senha" />
+      <Label layoutX="70.0" layoutY="39.0" text="AllanTask">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegistrarse" layoutX="94.0" layoutY="210.0" mnemonicParsing="false" onAction="#onclickRegistrarse" prefHeight="25.0" prefWidth="108.0" text="Registrar-se" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="296.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Opções">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#btnMenuOpcoesRegistrar" text="Registrar" />
+            </items>
+             <items>
+                <MenuItem mnemonicParsing="false" onAction="#btnMenuOpcoesSair" text="Sair"/>
+             </items>
+          </Menu>
+        </menus>
+      </MenuBar>
    </children>
-</GridPane>
+</Pane>

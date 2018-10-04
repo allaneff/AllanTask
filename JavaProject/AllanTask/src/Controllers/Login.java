@@ -6,15 +6,10 @@ import Classes.MensagensEspec;
 import Classes.Telas;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -41,15 +36,19 @@ public class Login {
 
             while (rs.next()){
                 if (!rs.getString(1).isEmpty()){
-                    System.out.println("Logado");
+                    new Telas().TelaPrincipal();
+                    btnLogar.getScene().getWindow().hide();
                     return;
                 }
             }
-
+            MensagensEspec.MensagemInfo("Login", "Usuário " +"'"+ txUser.getText()+"'" + " inválido! ", "Usuário não consta na base de dados!");
+            btnLogar.getScene().getWindow().hide();
             System.out.println("Errado");
         } catch (SQLException e){
             e.printStackTrace();
         }
+
+
     }
 
     public void onclickRegistrarse(ActionEvent actionEvent) {
@@ -57,4 +56,17 @@ public class Login {
 
         btnLogar.getScene().getWindow().hide();
     }
-}
+
+    public void btnMenuOpcoesRegistrar(ActionEvent actionEvent){
+        new Telas().TelaRegistro();
+
+        btnLogar.getScene().getWindow().hide();
+    }
+
+    public void btnMenuOpcoesSair(ActionEvent actionEvent){
+        btnLogar.getScene().getWindow().hide();
+    }
+
+
+    }
+

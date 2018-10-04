@@ -27,7 +27,7 @@ public class Registro {
 
     public void handleBtnEfetivarOnAction(){
 
-        // Fechar tela atual // txUserReg.getScene().getWindow().hide();
+
 
         Connection Conexao = ConexaoBanco.getConnection();
         String nome_usuario = txNomReg.getText().toString(); //Nome Completo
@@ -50,11 +50,11 @@ public class Registro {
         MensagensEspec.MensagemInfo("Cadastro de usuário","Usuário " + txUserReg.getText() + " criado","Usuário incluído com sucesso!");
 
         txUserReg.getScene().getWindow().hide();
+        new Telas().TelaLogin();
     }
 
     public void handleBtnSairOnAction() {
         new Telas().TelaLogin();
-
         btnSair.getScene().getWindow().hide();
     }
 

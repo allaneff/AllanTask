@@ -3,30 +3,45 @@ package Classes;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class Telas {
     public static Stage PrimaryStage;
-
-
+/*
+    public void Teste(Button btn){
+        CriaTela("FXMLs/Registro.fxml","AllanTask - Registre-se");
+        btn.getScene().getWindow().hide();
+    }
+*/
 
     public void TelaRegistro(){
         CriaTela("FXMLs/Registro.fxml","AllanTask - Registre-se");
     }
 
     public void TelaPrincipal(){
-        CriaTela("","");
+        CriaTela("FXMLs/TelaPrincipal.fxml","AllanTask - Home");
 
+    }
+
+    public void TelaNotas(){
+        CriaTela("FXMLs/Notas.fxml","AllanTask - Acessar tela de notas");
     }
 
     public void TelaLogin(){
-        CriaTela("FXML/Login.fxml","Retornar tela Login");
+        Parent root = null;
+        try
+        {
+            root = FXMLLoader.load(getClass().getClassLoader().getResource("FXMLs/Login.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        PrimaryStage.setTitle(" ");
+        PrimaryStage.setScene(new Scene(root, 296, 269));
+        PrimaryStage.show();
 
     }
-
 
     private void CriaTela(String caminho,String titulo){
         try {
