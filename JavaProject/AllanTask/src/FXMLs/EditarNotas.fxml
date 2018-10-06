@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="308.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerEditarNotas">
+    <children>
+        <TextField fx:id="txTituloAdicionar" layoutX="87.0" layoutY="42.0" promptText="Titulo" />
+        <TextField fx:id="txDescricaoAdicionar" layoutX="87.0" layoutY="106.0" promptText="Descrição" />
+        <DatePicker fx:id="dtDataAdicionar" layoutX="75.0" layoutY="173.0" />
+        <Button layoutX="53.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleBtnConfirmarEditar" text="Confirmar" />
+        <Button layoutX="137.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleBtnExcluirEditar" text="Excluir" />
+        <Button layoutX="219.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleBtnVoltarAdicionar" text="Voltar" />
+    </children>
+</AnchorPane>

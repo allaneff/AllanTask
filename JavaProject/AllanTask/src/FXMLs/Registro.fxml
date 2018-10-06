@@ -11,10 +11,10 @@
 
 <AnchorPane prefHeight="325.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Registro">
    <children>
-      <Button layoutX="114.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleBtnEfetivarOnAction" prefHeight="25.0" prefWidth="156.0" text="Efetivar" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="114.0" />
       <TextField fx:id="txNomReg" layoutX="31.0" layoutY="79.0" prefHeight="36.0" prefWidth="323.0" promptText="Nome completo" />
       <TextField fx:id="txUserReg" layoutX="33.0" layoutY="145.0" prefHeight="36.0" prefWidth="323.0" promptText="Usuário" />
       <PasswordField fx:id="psSenhaReg" layoutX="33.0" layoutY="212.0" prefHeight="36.0" prefWidth="323.0" promptText="Senha" />
+      <Button layoutX="114.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleBtnEfetivarOnAction" prefHeight="25.0" prefWidth="156.0" text="Efetivar" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="114.0" />
       <Button fx:id="btnSair" layoutX="341.0" layoutY="293.0" mnemonicParsing="false" onAction="#handleBtnSairOnAction" text="Sair" />
       <Label layoutX="109.0" layoutY="29.0" text="Cadastro de Usuario">
          <font>

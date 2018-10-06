@@ -1,24 +1,26 @@
 package Classes;
 
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleBooleanProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 public class DadosNotas {
-    private final SimpleBooleanProperty selected;
+    private final SimpleIntegerProperty id_notas;
     private final SimpleStringProperty titulo;
     private final SimpleStringProperty texto;
 
-    public DadosNotas(String titulo, String texto) {
-        this.selected = new SimpleBooleanProperty(false);
+    public DadosNotas(int id_notas, String titulo, String texto) {
+        this.id_notas = new SimpleIntegerProperty(id_notas);
         this.titulo = new SimpleStringProperty(titulo);
         this.texto = new SimpleStringProperty(texto);
     }
 
-    public boolean isSelected() {
-        return selected.get();
+    public int getIdNotas() {
+        return id_notas.get();
     }
-    public void setSelected(boolean selected){
-        this.selected.set(selected);
+    public void setIdNotas(int id_notas){
+        this.id_notas.set(id_notas);
     }
 
     public String getTitulo(){

@@ -16,7 +16,7 @@ public class ConexaoBanco {
 
     public static Connection getConnection(){
         try {
-            return DriverManager.getConnection(dataBaseServer + dataBaseName + "?useTimezone=true&serverTimezone=UTC&autoReconnect=true&useSSL=false",dataBaseUser,dataBasePassword);
+            return DriverManager.getConnection(dataBaseServer + dataBaseName + "?autoReconnect=true&useSSL=false",dataBaseUser,dataBasePassword);
         }catch (SQLException e){
             throw new RuntimeException(e);
         }

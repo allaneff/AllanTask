@@ -1,9 +1,6 @@
 package Controllers;
 
-import Classes.ConexaoBanco;
-import Classes.GeraHash;
-import Classes.MensagensEspec;
-import Classes.Telas;
+import Classes.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -30,20 +27,20 @@ public class Login {
         try {
             Connection DB = ConexaoBanco.getConnection();
 
-            PreparedStatement ps = DB.prepareStatement("SELECT nome_user FROM at_user WHERE nome_user = '" + txUser.getText() + "' AND pass_user = '" + GeraHash.ReturnHash(psUser.getText()) + "'");
+            PreparedStatement ps = DB.prepareStatement("SELECT cod_user, nome FROM at_user WHERE usuario = '" + txUser.getText() + "' AND password = '" + GeraHash.ReturnHash(psUser.getText()) + "'");
 
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()){
-                if (!rs.getString(1).isEmpty()){
-                    new Telas().TelaPrincipal();
+                if (!rs.getString(2).isEmpty()){
+                    Sessao.IDUserLogado = rs.getInt(1);
+
+                    new Telas().TelaNotas();
                     btnLogar.getScene().getWindow().hide();
                     return;
                 }
             }
             MensagensEspec.MensagemInfo("Login", "Usuário " +"'"+ txUser.getText()+"'" + " inválido! ", "Usuário não consta na base de dados!");
-            btnLogar.getScene().getWindow().hide();
-            System.out.println("Errado");
         } catch (SQLException e){
             e.printStackTrace();
         }

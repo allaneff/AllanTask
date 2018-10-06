@@ -36,7 +36,7 @@ public class Registro {
 
 
         try {
-            PreparedStatement ps = Conexao.prepareStatement("INSERT at_user (nome_user,pass_user,usuario_user) VALUES ('" + txNomReg.getText() + "','" + ReturnHash(psSenhaReg.getText()) +"','"+ txUserReg.getText() + "')");
+            PreparedStatement ps = Conexao.prepareStatement("INSERT at_user (nome,password,usuario) VALUES ('" + txNomReg.getText() + "','" + ReturnHash(psSenhaReg.getText()) +"','"+ txUserReg.getText() + "')");
 
             ps.execute();
         } catch (SQLException e ){

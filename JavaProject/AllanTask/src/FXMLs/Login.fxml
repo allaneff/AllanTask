@@ -12,7 +12,6 @@
 
 <Pane prefHeight="269.0" prefWidth="296.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Login">
    <children>
-      <Button fx:id="btnLogar" layoutX="94.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleBtnLogarOnAction" prefHeight="25.0" prefWidth="108.0" text="Login" />
       <TextField fx:id="txUser" layoutX="43.0" layoutY="88.0" prefHeight="25.0" prefWidth="211.0" promptText="Usuario" />
       <PasswordField fx:id="psUser" layoutX="42.0" layoutY="131.0" prefHeight="25.0" prefWidth="211.0" promptText="Senha" />
       <Label layoutX="70.0" layoutY="39.0" text="AllanTask">
@@ -20,6 +19,7 @@
             <Font name="System Bold Italic" size="33.0" />
          </font>
       </Label>
+      <Button fx:id="btnLogar" layoutX="94.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleBtnLogarOnAction" prefHeight="25.0" prefWidth="108.0" text="Login" />
       <Button fx:id="btnRegistrarse" layoutX="94.0" layoutY="210.0" mnemonicParsing="false" onAction="#onclickRegistrarse" prefHeight="25.0" prefWidth="108.0" text="Registrar-se" />
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="296.0">
         <menus>
@@ -28,7 +28,7 @@
               <MenuItem mnemonicParsing="false" onAction="#btnMenuOpcoesRegistrar" text="Registrar" />
             </items>
              <items>
-                <MenuItem mnemonicParsing="false" onAction="#btnMenuOpcoesSair" text="Sair"/>
+                <MenuItem mnemonicParsing="false" onAction="#btnMenuOpcoesSair" text="Sair" />
              </items>
           </Menu>
         </menus>
